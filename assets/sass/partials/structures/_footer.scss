@@ -1,0 +1,37 @@
+.site-footer{
+  width:100%;
+  //position: absolute;
+  bottom:0;
+  background: rgb(255, 228, 199); //url('./../img/png/body_bg_02.png') 50% 50% repeat;
+  border-top: solid $border-color-main 1px;
+  padding: 25px 0;
+  //margin-top:100px;
+  margin-top:20px;
+  .footer-columns{
+    @extend %wrap;
+    @extend %fix_float;
+    padding:0;
+    .ftr-column{
+      width:get_slices($default-screen-width,  5, 15);
+      float:left;
+      margin-right:get_slice_margin($default-screen-width,  5, 15);
+      //min-height:40px;
+      //background: red;
+      &:last-child{
+        margin-right:0;
+        float: right;
+        img{
+          float:right;
+        }
+      }
+    }
+    .column-1{
+    }
+    .column-2{
+    }
+    .column-3{
+    }
+    .column-4{
+    }
+  }
+}

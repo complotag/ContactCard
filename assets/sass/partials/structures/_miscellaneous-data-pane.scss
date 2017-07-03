@@ -1,0 +1,17 @@
+.misc-data-pane {
+  .wrap {
+    @extend %wrap;
+    padding:0;
+    h1, h2{
+      background: url('./../img/png/heading_bg.png') 50% 50% repeat;
+      padding: 10px 0;
+      font-size: 1.2em;
+      font-weight: 200;
+      color: rgba($heading_tag_color, 0.96);
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+  }
+}

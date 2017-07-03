@@ -1,0 +1,205 @@
+/* ==========================================================================
+   Templates
+   ========================================================================== */
+@import "compass/utilities/color/contrast";
+@import "compass/css3";
+@import "compass/support";
+@import "compass/utilities/general/clearfix";
+@import "compass/css3/transform";
+
+%half-size-inline {
+	display: inline-block;
+	width: 50%;
+	&:first-child {
+		padding-right: 20px;
+	}
+	@include respond-to(medium-screens) {
+		width: 100%;
+		&:first-child {
+			padding-right: 0;
+		}
+	}
+	font-size: $font-size-default;
+	line-height: 1.2em;
+	vertical-align: top;
+}
+
+
+%wrap {
+  width: 100%;
+  max-width: $screen-width-default;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+%wrap-no-padding {
+  width: 100%;
+  max-width: $screen-width-default;
+  margin: 0 auto;
+  padding: 0;
+}
+
+%content-wrap-no-padding {
+  width: 100%;
+  max-width: $content-width-default;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+%gradient-bg-uniform-1{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9f9db+0,f7f2ca+50,e4ead3+51,f7f5d4+100 */
+  background: #cece83; /* Old browsers */
+  background-image: -moz-linear-gradient(top, #F9F9DB 0%, #F7F2CA 50%, #E4EAD3 51%, #F7F5D4 100%); /* FF3.6-15 */
+  background-image: -webkit-linear-gradient(top, #F9F9DB 0%, #F7F2CA 50%, #E4EAD3 51%, #F7F5D4 100%); /* Chrome10-25,Safari5.1-6 */
+  background-image: linear-gradient(to bottom, #F9F9DB 0%, #F7F2CA 50%, #E4EAD3 51%, #F7F5D4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9db', endColorstr='#f7f5d4', GradientType=0); /* IE6-9 */
+}
+
+%gradient-bg-uniform-2{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cece83+0,cccc88+50,f4f1c6+100 */
+  background: #cece83; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cece83 0%, #cccc88 50%, #f4f1c6 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #cece83 0%,#cccc88 50%,#f4f1c6 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #cece83 0%,#cccc88 50%,#f4f1c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cece83', endColorstr='#f4f1c6',GradientType=0 ); /* IE6-9 */
+  border-color: #a0a031;
+}
+
+%wrap-no-padding {
+  width: 100%;
+  max-width: $screen-width-default;
+  margin: 0 auto;
+  padding: 0;
+}
+
+%content-wrap-no-padding {
+  width: 100%;
+  max-width: $content-width-default;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+%fix_float{
+  *zoom:1;
+  &:before, &:after{
+    content:"";
+    display:table;
+  }
+  &:after{
+    clear:both;
+  }
+}
+
+
+%response_tmpl_box{
+  width:100%;
+  float:none;
+  margin:0;
+}
+
+%mri-heading-render{
+  font-family:$font-family-mri;
+  font-weight: 200 !important;
+  text-transform:uppercase;
+  background: $mri_page_title_background_1;
+  padding: 0;
+  border-radius: 0;
+  font-size: 40px;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 99;
+  text-align: center;
+}
+
+%mri-heading-render-main{
+  font-family:$font-family-mri;
+  font-weight: normal !important;
+  background: $mri_page_title_background_1;
+  padding: 0 10px 0 0;
+  border-radius: 0;
+  text-align: left;
+  font-size: 40px;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+  padding-left: 30px;
+}
+
+%mri-heading-render-mobile{
+  font-family:$font-family-mri;
+  font-weight: normal !important;
+  background: $mri_page_title_background_1;
+  padding: 0;
+  border-radius: 0;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  line-height: 1.6;
+  margin: 0;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+%mri_gray_gradient_render_1{
+  // Needs latest Compass, add '@import "compass"' to your scss
+  // Permalink - use to edit and share this gradient:
+  // http://colorzilla.com/gradient-editor/#848484+0,353535+100
+  background-color: #848484; // Old browsers
+  @include filter-gradient(#848484, #353535, vertical); // IE6-9
+  @include background-image(linear-gradient(top, #848484 0%, #353535 100%));
+  -webkit-box-shadow: inset 0 1px 1px rgba(58, 57, 57, 0.5), 0 0 8px rgba(84, 84, 83, 0.93);
+  box-shadow: inset 0 1px 1px rgba(58, 57, 57, 0.5), 0 0 8px rgba(84, 84, 83, 0.93);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+%mri_gray_gradient_render_2{
+  // Needs latest Compass, add '@import "compass"' to your scss
+  // Permalink - use to edit and share this gradient:
+  // http://colorzilla.com/gradient-editor/#ededed+0,cbcbcb+100
+  background-color: #ededed; // Old browsers
+  @include filter-gradient(#ededed, #cbcbcb, vertical); // IE6-9
+  @include background-image(linear-gradient(top,  #ededed 0%,#cbcbcb 100%));
+  -webkit-box-shadow: inset 0 1px 1px rgba(58, 57, 57, 0.015), 0 0 8px rgba(84, 84, 83, 0.93);
+  box-shadow: inset 0 1px 1px  rgba(58, 57, 57, 0.015), 0 0 8px rgba(84, 84, 83, 0.93);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+%mri_gray_gradient_render_3{
+  // Needs latest Compass, add '@import "compass"' to your scss
+  // Permalink - use to edit and share this gradient:
+  // http://colorzilla.com/gradient-editor/#ededed+0,cbcbcb+100
+  background-color: #848484; // Old browsers
+  @include filter-gradient(#848484, #353535, vertical); // IE6-9
+  @include background-image(linear-gradient(top, #848484 0%, #353535 100%));
+  -webkit-box-shadow: inset 0 1px 1px rgba(58, 57, 57, 0.5), 0 0 8px rgba(84, 84, 83, 0.93);
+  box-shadow: inset 0 1px 1px rgba(58, 57, 57, 0.5), 0 0 8px rgba(84, 84, 83, 0.93);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+%mri_dark_box_shadow{
+  -webkit-box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+  -moz-box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+  box-shadow: -5px 5px 9px -1px rgba(0,0,0,0.80);
+}
+
+%response_tmpl_img{
+  width:100%;
+  float:none;
+  margin:0;
+  img, .full_pane_pix{
+	width:100%;
+  }
+}

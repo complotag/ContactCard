@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+*, *:before, *:after {
+	@include box-sizing(border-box);
+	@include font-smoothing(on);
+	@include transition-property(all);
+	@include transition-duration(0.2s);
+}
+
+body {
+  box-sizing: border-box;;
+	background-color: rgba($bg-color, 0.2);
+	font-family: $font-family-default;
+	font-size: $font-size-default;
+    //padding:10px;
+	line-height: 1.2em;
+	color: $color-default;
+	font-style: normal;
+    //margin-right: 15px;
+    //margin-left: 5px;
+}
+
+a {
+	color: $default-color;
+    text-decoration: none;
+	&:hover {
+		color: darken($default-color, 20%);
+	}
+}
+
+hr {
+	background-color: #4c4c4c;
+	border: 0;
+	height: 1px;
+}
+
+strong, b {
+  font-weight: bold;
+}
+i {
+  font-style: italic;
+}
+u {
+  text-decoration: underline;
+}
+
+
+h1 {
+  font-size: 2.6em;
+  line-height: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+h4 {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+h5 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom: 0.2em;
+}

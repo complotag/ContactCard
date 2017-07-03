@@ -1,0 +1,27 @@
+.slider-container{
+  @include respond-to(medium-screens){
+    //display: none;
+  }
+ .slider_box {
+   width:100%;
+   padding-top: 125px; //112px;
+   margin-bottom:15px;
+
+   @include respond-to(medium-screens){
+     padding:0;
+     padding-top:75px;
+   }
+   img{
+     width:100%;
+     border-top: solid $border-color-main 1px;
+     border-bottom: solid $border-color-main 1px;
+   }
+ }
+}
+
+.nivo-controlNav {
+  display:none;
+}
+.nivo-caption{
+  background: red;
+}

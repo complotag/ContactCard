@@ -1,0 +1,349 @@
+/* ==========================================================================
+   Settings
+   ========================================================================== */
+
+
+/***************************************************************/
+/***********************MEASUREMENTS****************************/
+/***************************************************************/
+$screen-width-medium:         	1028px;
+$content-width-default:       	1028px;
+$screen-width-default:        	1028px;
+$screen-width-small:          	480px;
+
+
+/***************************************************************/
+/***************************FONTS*******************************/
+/***************************************************************/
+/*
+$mri_global_heading_font:    	"GravurThin", "GravurCondensed", Arial, Helvetica, sans-serif;
+$mri_font-family_extra_1:    	"Gravur Condensed", Helvetica, Arial, sans-serif;
+$mri_font-family_extra_2:    	"GravurLight", "GravurCondensed", Arial, Helvetica, sans-serif;
+$mri_product_name_font_2:	    fantasy, Helvetica, Arial, Calibri, sans-serif;
+
+$font-family-default:         	"Helvetica Neue",Helvetica,Arial,sans-serif;  //"Open Sans Condensed", sans-serif;
+$font-family-alternative:     	"trebuchet ms", verdana, tahoma, sans-serif;
+$font-family-mri:				"GravurThin", "GravurCondensed", Arial, Helvetica, sans-serif;
+$font-family-sans-serif:  		Arial, sans-serif,"Helvetica Neue", Helvetica !default;
+$font-family-serif:       		Georgia, "Times New Roman", Times, serif !default;
+*/
+$mri_font-family-general:    	'Lato', Arial, Helvetica, Calibri, sans-serif;
+$mri_global_heading_font:		"Gravur Condensed", Helvetica, Arial, sans-serif;;	//fantasy, 'Lato', Arial, Helvetica, Calibri, sans-serif;
+$mri_global_heading_font_2:		'Lato', Arial, Helvetica, Calibri, sans-serif;
+$mri_font-family_extra_1:		"GravurLight", "GravurCondensed", 'Oswald', Arial, Helvetica, Calibri, sans-serif;
+$mri_font-family_extra_2:		"GravurLight", "GravurCondensed", 'Josefin Sans', Arial, Helvetica, Calibri, sans-serif;
+$mri_product_name_font:	   		'Fancy', 'Oswald', sans-serif;
+$mri_product_name_font_2:		fantasy, Helvetica, Arial, Calibri, sans-serif, 'Oswald', sans-serif;
+$mri_font_jose_fin:	    		'Josefin Sans', sans-serif;
+$mri__font_lat:	    			'Lato', sans-serif;
+$mri_font_oswald:	    		fantasy, 'Oswald', sans-serif;
+$mri_font_allegra:	    		'Alegreya Sans', sans-serif;
+$font-family-default:         	"Helvetica Neue",Helvetica,Arial,sans-serif;  //"Open Sans Condensed", sans-serif;
+$font-family-alternative:     	"trebuchet ms", verdana, tahoma, sans-serif;
+$font-family-mri:				 "GravurThin", "GravurCondensed", 'Josefin Sans', Arial, Helvetica, sans-serif;
+$font-family-sans-serif:  		Arial, sans-serif,"Helvetica Neue", Helvetica !default;
+$font-family-serif:       		Georgia, "Times New Roman", Times, serif !default;
+
+
+/***************************************************************/
+/***************************COLORS******************************/
+/***************************************************************/
+//BACKGROUNDS
+$mri_body_background:			#E4E4E4;
+$single_product_right_pane_bg:	#C8C8C8;
+$mri_site_wrapper_background:	rgb(51, 51, 51);
+$mri_footer_wrapper_background:	rgb(51, 51, 51);
+$mri_widget_section_background:	rgb(123, 123, 123);
+$mri_widget_section_background2:rgb(199, 199, 199);
+$mri_table_head_background:		rgb(160, 160, 160);
+$mri_price_box_background:		rgb(82, 82, 82);
+$mri_nav_header-background:		#333333;
+$mri_widget_heading_background:	#666666;
+$mri_top_link_background:		#292929;
+$mri_top_link_hover_background:	rgb(205, 205, 205);
+$mri_dynamic_cart_background:	rgb(240, 240, 240);
+$mri_bg_color_extra_1:			#212121;
+$mri_page_title_background_1:	#626262;
+$mri_search_result_article_bg: 	#B9B9B9;
+$mri_site_search_background:	#C5C5C5;
+$site-header-mobile-bg: 		#3A3A3A;
+$mri_product_on_sale_bg: 		rgb(84, 84, 84);
+$mri_search_excerpt_footer_bg: 	#CECECE;
+
+
+
+//NAVIGATION
+$mri_widget_heading_color:		#222222;
+$mri_link_color_1:				#999999;
+$thumbnail_border_color:		#DDDDDD;
+$hamburger_color_normal:		#EAEAEA;
+$mri_result_count_bg:			#EDEDED;
+$hamburger_color_hover:			#EAEAEA;
+$mri_top_link_hover_color:		rgb(14, 14, 14);
+$mri_top_link_hover_color_2: 	rgb(0, 11, 70);
+$mri_top_link_hover_color_3:	rgb(123, 93, 93);
+$mri_top_link_hover_color_4: 	rgb(116, 72, 75);
+$mri_active_link_color:			rgb(101, 101, 101);
+$mri_widget_section_link_color:	#636363;
+$cart_item_bg:					#A5A5A5;
+$section-link-color: 			#6B4401;
+$remove_hover_color: 			#7B5D64;
+$active_lang_color: 			#AC0000;
+
+
+
+//TEXTS
+$mick_blue_text               : rgb(49, 79, 152);
+$borderedTriangleRed          : rgb(240, 50, 0);      //rgb(231, 76, 60);
+$mri_body_text_color_general:	rgba(58, 58, 58, 0.99);
+$mri_grey_color: 				#8A8A8A;
+
+//MISC
+$mri_black:							#000000;
+$mri_50_black:						rgb(50, 50, 50);
+$mri_order_heading_color: 			#730c00;
+$big_price_box_color:				rgb(29, 29, 29);		//#730C00;
+$big_price_box_border:				rgb(226, 226, 226);				//rgb(255, 170, 83);
+$mri_ad_num_border: 				rgb(226, 226, 226);
+$mri_th_td_border_color:			rgb(103, 103, 103);
+$link_wrapped_anchor_color: 		#0B0E20;
+$mri_thumb_background: 				#d1d1d1;
+$mri_thumb_border: 					#E0E0E0;
+$mri_section_meta_hover_color: 		#74484B;
+$mri_pull_right_color: 				#082308;
+$contact_form_validation_err_color: #887373;
+$contact_form_invalid_color: 		#9C9C9C;
+$clear_white:           			#FFFFFF;
+$mri_input_border:          		#CCCCCC;
+$mri_table_border_color:       		#A2A2A2;
+$mri_contact_heading_bg: 			#7B7B7B;
+$mri_form_input_color: 				#555;
+$contact_form_invalid_tip_color:	#887373;
+$mri_total_qty_box_color: 			#E6E6E6;
+$social-media-fa-color: 			#CBCBCB;
+$mri_misc_border-color: 			#BCBCBC;
+$mri_add_remove_btn_color: 			#181618;
+$mri_archived_data_link_color: 		#000E83;
+$mri_info_border_top_color: 		#8C8C8C;
+$mri_product_on_sale_color: 		#ADAFAD;
+$mri_star_rating_color: 			#444444;
+$mri_error_warning_color:			#004;
+$mri_search_result_heading_color: 	#292929;
+$mri_search_result_hover_color: 	#3E1B1E;
+$mri_regular_price_color: 			rgb(35, 8, 8);
+$mri_form_group_select_bg: 			#F7F7F7;
+$mri_form_group_select_color: 		#686868;
+$mri_gray_text_color: 				#8A8A8A;
+$mri_total_order_qty_color: 		rgb(220, 220, 220);
+$mri_tiny_text_color: 				rgb(188, 188, 188);
+$mri_tiny_text_border:  			rgb(97, 97, 97);
+
+/***************************************************************/
+/*************************FONT-SIZES****************************/
+/***************************************************************/
+$mri_global_font-size:			16px;
+$mri_global_line-height:		24px;
+
+
+/**MEASUREMENTS**/
+//TABLETS: LANDSCAPE
+$fix-left-margin-MSL:            155px;
+$fix-left-margin-pc-MSL:         10.3125%;
+$content-padding-right-MSL:      155px;      //155.76px;
+$content-padding-right-pc_MSL:   15.691489361702%;
+$content-pane-width-MSL:         837px;      //837.54px;
+$general-content-width-pc-MSL:   84.308510638298%;
+$content-effective-width-MSL:    682px;      //681.78;
+$content-effective-width-pc-MSL: 68.683510638298%;
+
+//$content-effective-widthX:       600px;        //999px;
+//$content-effective-widthX-pc:    65.691489361702%;
+
+$general-content-width-MSL:      837px;      //837.54px;
+$content-start-top-MSL:          287px;      //287.1px;
+$content-margin-left-MSL:        30px;       //29.7px;
+$content-margin-left-pc-MSL:     2.992021276596%;
+$contact-top-margin-MSL:         13px;       //13.2px;
+$global-wrapper-width-MSL:       992px;      //992.64px;
+
+
+/**MEASUREMENTS**/
+//TABLETS: PORTRAIT
+$fix-left-margin-MSP:            155px;
+$fix-left-margin-pc-MSP:         66%;
+$content-padding-right-MSP:      236px;
+$content-padding-right-pc_MSP:   15.691489361702%;
+$content-pane-width-MSP:         1269px;
+$general-content-width-pc-MSP:   84.308510638298%;
+$content-effective-width-MSP:    1033px;
+$content-effective-width-pc-MSP: 68.683510638298%;
+$general-content-width-MSP:      1269px;
+$content-start-top-MSP:          435px;
+$content-margin-left-MSP:        45px;
+$content-margin-left-pc-MSP:     2.992021276596%;
+$contact-top-margin-MSP:         20px;
+$global-wrapper-width-MSP:       1504px;
+
+
+
+/**MEASUREMENTS**/
+//SMART PHONES (MOBILES)
+$fix-left-margin-MOB:            155px;
+$fix-left-margin-pc-MOB:         66%;
+$content-padding-right-MOB:      236px;
+$content-padding-right-pc_MOB:   15.691489361702%;
+$content-pane-width-MOB:         1269px;
+$general-content-width-pc-MOB:   84.308510638298%;
+$content-effective-width-MOB:    1033px;
+$content-effective-width-pc-MOB: 68.683510638298%;
+$general-content-width-MOB:      1269px;
+$content-start-top-MOB:          435px;
+$content-margin-left-MOB:        45px;
+$content-margin-left-pc-MOB:     2.992021276596%;
+$contact-top-margin-MOB:         20px;
+$global-wrapper-width-MOB:       1504px;
+
+
+
+
+//FONT-SIZES
+$font-size-general:              17px;
+$line-height-general:            20px;
+
+$font-size-17px-pc:              100%;
+$line-height-20px-pc:            100%;
+
+$font-size-50px-pc:              294.11764705882353%;
+$line-height-55px-pc:            275%;
+
+$font-size-42px-pc:              247.05882352941176%;
+$line-height-46px-pc:            230%;
+
+$font-size-14px-pc:              82.35294117647059%;
+$line-height-16px-pc:            80%;
+
+$font-size-35px-pc:              205.88235294117647%;
+$line-height-40px-pc:            200%;
+
+$font-size-40px-pc:              235.29411764705882%;
+$line-height-45px-pc:            225%;
+
+$font-size-27px-pc:              158.82352941176471%;
+$line-height-32px-pc:            160%;
+
+
+$screen-width-medium:         	1028px;  //990px;
+$content-width-default:       	1028px;  //990px;
+
+$screen-width-small:          	480px;
+$screen-width-default:        	1028px;
+$half_screen_width:           	480px;
+$half_screen_width:           	514px;
+
+
+
+
+
+
+/**COLORS**/
+
+
+$font-size-default:           	15px;
+$font-size-navigation:        	22px;
+$font-size-sub-link:          	18px;
+
+$header-bg-green:             	#9BC23B;
+$footer-bg-green:             	#58740d;
+
+
+$color-default:               #202020;
+$color-alternative:           #497dca;
+$color-background:            #101010;
+$color-link:                  $color-alternative;
+$bg-color:                    rgb(255, 240, 223);
+$nav-link-color:              #b75f00;     // rgb(0, 122, 144);
+$nav-hover-color:             rgb(224, 228, 180);
+
+//COLORS
+/*BUTTON BACKGROUNDS*/
+$button_bg_blue:        #0b4395;
+$button_bg_green:       #95c11f;
+$button_bg_red:         #e30613;
+
+/*LINKS COLORS*/
+$link_green:            #95c11f;
+$link_blue:             #0b4395;
+$link_red:              #e30613;
+$blue_link:             #497dca;
+$gray_link:             #666666;
+
+/*NEUTRAL COLORS*/
+$white_1:               rgba(255, 255, 255, 1);
+$services_blue:         #0b4395;
+$sub_links_black:       #1c1c1c;
+$gray_border_color:     #4b4b4b;
+$gray_666:              #666666;
+
+$default-color:         #FFFFFF;
+$major_sect_color:      #497dca;
+$border_color_main:     #ffa03a;    //rgb(169, 196, 56);
+$heading_tag_color:     rgb(231, 130, 21);
+$nav_menu_width:        123px;
+$tf-site-width-default: $screen-width-default;
+$base_header_height:    330px;
+$header_bg:             "../img/header_ok.jpg";
+$header_bg_mobile:      "../img/mobile_bg.png";
+$nav_button_mobile:     "../img/nav_arrow.png";
+
+$header_position:       50% 50%;
+$header_repeat:         no-repeat;
+$default_margin:        30px;
+$secondary_margin:      20px;
+
+$open_sans_normal:      'Open Sans', sans-serif;
+$trebuchet:             "trebuchet ms", verdana, tahoma, sans-serif;
+$open_sans_condensed:   "Open Sans Condensed", sans-serif;
+$font_fam_1:            $open_sans_condensed;
+$font_fam_2:            $open_sans_condensed;
+
+
+$nav_hover_color:       rgba(11, 67, 149, 1);
+$link_bar_blue:         rgba(0, 15, 135, 0.80);
+$link_bar_red:          rgba(186, 0, 16, 0.80);
+$link_bar_green:        rgba(0, 149, 9, 0.80);
+
+//FONT-SIZES...
+$heading_font_size:     28px;
+$main_header_font_size: 40px;
+$main_nav_font_size:    22px;
+$specs_font_size:       15px;
+$twenty_five_px:        25px;
+$stripty_font_size:     19px;
+$footer_font_size_1:    16px;
+$footer_font_size_2:    17px;
+$footer_font_size_3:    18px;
+$dienst_head_font_size: 32px;
+
+$fourteen_px:           14px;
+$fifteen_px:            15px;
+$sixteen_px:            16px;
+$seventeen_px:          17px;
+$eighteen_px:           18px;
+$nineteen_px:           19px;
+$twenty_px:             20px;
+
+$default-screen-width:  1050;
+$tablet-screen-width:   637;
+$small-screen-width:    320;
+$default-screen-width-2:1400;
+$tablet-screen-width-2: 750;
+$small-screen-width-2:  480;
+
+$ipad-width-1:          768;
+$ipad-width-2:          946;
+$ipad-width-3:          980;
+$mobile-width-1:        320;
+$mobile-width-2:        480;
+
+$default-margin-nr:     20;
+

@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+	margin: 0;
+	background: #ccc;
+	color: #000;
+	padding: 1em 0;
+	text-align: center;
+	font-style: normal;
+
+	a {
+		color: #000000;
+	}
+}
+
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+.no-animation, .ui-datepicker {
+	@include transition-property(none);
+	@include transition-duration(0);
+	*, *:before, *:after {
+		@include transition-property(none);
+		@include transition-duration(0);
+	}
+}
+
+.page-wrap {
+	width: 100%;
+	max-width: $screen-width-default;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+
+.divider{
+  height: 1px;
+  margin:20px 0;
+  border-bottom: solid $gray_border_color 1px;
+}
+
+.red-color{
+  color:#ff0000;
+}
+
+.line-through{
+  text-decoration: line-through;
+}

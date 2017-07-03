@@ -1,0 +1,326 @@
+/* ==========================================================================
+   Settings
+   ========================================================================== */
+// @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Ubuntu:400,300,300italic,400italic,500,500italic,700,700italic|Dosis:400,200,300,500,600,700,800|PT+Sans+Narrow:400,700);
+
+/***************************************************************/
+/***********************MEASUREMENTS****************************/
+/***************************************************************/
+$screen-width-medium:         	1028px;
+$content-width-default:       	1028px;
+$screen-width-default:        	1028px;
+$screen-width-small:          	480px;
+
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/***************************************************************/
+/***************************FONTS*******************************/
+/***************************************************************/
+$pz_font-family-general:    	Helvetica, Arial, Calibri, sans-serif;
+$pz_global_heading_font:    	"GravurThin", "GravurCondensed", Arial, Helvetica, sans-serif;
+$pz_font-family_extra_1:    	"Gravur Condensed", Helvetica, Arial, sans-serif;
+$pz_font-family_extra_2:    	"GravurLight", "GravurCondensed", Arial, Helvetica, sans-serif;
+$pz_product_name_font:	    	fantasy, Helvetica, Arial, Calibri, sans-serif;
+$pz_font_jose_fin:				$pz_font-family_extra_1;
+$pz_font-family-general:		$pz_font-family_extra_1;
+$pz_font-family_extra_1:		$pz_font-family_extra_1;
+$pz_product_name_font_2:		$pz_font-family_extra_1;
+$pz-ralEWay-font		: 		'Raleway', sans-serif;
+$pz-ubuntu-font		: 			'Ubuntu', sans-serif;
+$pz-doses-font			: 		'Dosis', sans-serif;
+$pz-pt-sans-font		: 		'PT Sans Narrow', sans-serif;
+
+
+/***************************************************************/
+/***************************COLORS******************************/
+/***************************************************************/
+//BACKGROUNDS
+
+$pz_body_background:			rgb(237, 255, 182);		//#EFFFDC;	//#FFFFFF;		//#F4FFD3;		//#EFFFBC;
+$pz_site_wrapper_background:	#EDFFB6;		//#E3FF8C;
+$pz_footer_wrapper_background:	#EDFFB6;		//#E3FF8C;
+$pz_super_wrapper_background:	rgb(245, 253, 220);		//#E3FF8C;
+$pz_widget_section_background:	#B9DE48;		//rgb(123, 123, 123);
+$pz_widget_section_background2:	#B9DE48;		//rgb(199, 199, 199);
+$pz_table_head_background:		rgb(160, 160, 160);
+$pz_price_box_background:		rgb(82, 82, 82);
+$pz_nav_header-background:		#EDFFB6;		//#E3FF8C;
+$pz_widget_heading_background:	#B9DE48;	//#666666;
+$pz_top_link_background:		rgb(129, 165, 18);    //rgb(155, 186, 69);;
+$pz_top_link_hover_background:	rgb(205, 205, 205);
+$pz_dynamic_cart_background:	rgb(240, 240, 240);
+$pz_bg_color_extra_1:			rgb(129, 165, 18);		//#9BB745;
+$pz_bg_color_extra_2:			#192B1B;		//#9BB745;
+$pz_page_title_background_1:	#B9DE48;
+$pz_site_search_background:		#B9DE48;
+$pz_minor_menu_hover_bg:		rgb(185, 222, 72);
+$pz_super_wrapper_bg:			rgb(237, 255, 182);
+$pz_heading_bg_blue:			rgb(0, 149, 255);
+$pz_heading_bg_blue2: 			rgba(240, 240, 240, 1);		//rgba(255, 255, 255, 0.95);	//rgba(7, 84, 136, 1);
+$header_box_bg:					rgb(1, 15, 24);
+
+$afmd_green:					rgb(185, 222, 72);
+$afmd_green2:					rgb(133, 169, 26);
+$aff_cyan:						$pz_bg_color_extra_2;
+$pz_ad_num_background:			$pz_bg_color_extra_2;
+$pz_ad_num_border:				$pz_bg_color_extra_2;
+$link_wrapped_anchor_color:		$pz_bg_color_extra_2;
+$pz_pull_right_color:			$pz_bg_color_extra_2;
+$big_price_box_color:			$pz_bg_color_extra_2;
+$pz-minor-link-color: 			rgb(132, 132, 158);				//    color: rgb(115, 72, 72);
+$pz-top-menu-border: 			rgba(0, 50, 82, 0.15);			//    color: rgb(115, 72, 72);
+$pz-top-menu-link-color:		rgb(7, 84, 136);				//    color: rgb(115, 72, 72);
+$pz-title-bar-blue:			$pz-top-menu-link-color;		//rgb(7, 84, 136);		//    color: rgb(115, 72, 72);
+
+
+
+
+//NAVIGATION
+$pz_widget_heading_color:		#088200;		//#222222;
+$pz_link_color_1: #074571;
+$thumbnail_border_color:		#DDDDDD;
+$hamburger_color_normal:		#09AD00;		//#EAEAEA;
+$hamburger_color_hover:			#121212;		//#EAEAEA;
+$pz_top_link_hover_color:		rgb(14, 14, 14);
+$pz_top_link_hover_color_2: 	rgb(0, 11, 70);
+$pz_top_link_hover_color_3:	rgb(123, 93, 93);
+$pz_top_link_hover_color_4: 	rgb(116, 72, 75);
+$pz_active_link_color:			rgb(129, 165, 18);    //rgb(155, 186, 69);;
+$pz_widget_section_link_color:	#636363;
+$pz_minor_menu_link_color:		rgb(28, 103, 36);
+
+
+
+//TEXTS
+$pz_body_text_color_general:	rgba(58, 58, 58, 0.99);
+$mick_blue_text               : rgb(49, 79, 152);
+$borderedTriangleRed          : rgb(240, 50, 0);      //rgb(231, 76, 60);
+$mri_body_text_color_general:	rgba(58, 58, 58, 0.99);
+$mri_grey_color: 				#8A8A8A;
+
+//MISC
+$pz_black:						#000000;
+$clear_white:           		#FFFFFF;
+$pz_input_border:          		#CCCCCC;
+$pz_table_border_color:       	#A2A2A2;
+
+
+/***************************************************************/
+/*************************FONT-SIZES****************************/
+/***************************************************************/
+$pz_global_font-size:			18px;		//16px;
+$pz_global_line-height:			24px;
+
+
+/**MEASUREMENTS**/
+//TABLETS: LANDSCAPE
+$fix-left-margin-MSL:            155px;
+$fix-left-margin-pc-MSL:         10.3125%;
+$content-padding-right-MSL:      155px;      //155.76px;
+$content-padding-right-pc_MSL:   15.691489361702%;
+$content-pane-width-MSL:         837px;      //837.54px;
+$general-content-width-pc-MSL:   84.308510638298%;
+$content-effective-width-MSL:    682px;      //681.78;
+$content-effective-width-pc-MSL: 68.683510638298%;
+
+//$content-effective-widthX:       600px;        //999px;
+//$content-effective-widthX-pc:    65.691489361702%;
+
+$general-content-width-MSL:      837px;      //837.54px;
+$content-start-top-MSL:          287px;      //287.1px;
+$content-margin-left-MSL:        30px;       //29.7px;
+$content-margin-left-pc-MSL:     2.992021276596%;
+$contact-top-margin-MSL:         13px;       //13.2px;
+$global-wrapper-width-MSL:       992px;      //992.64px;
+
+
+/**MEASUREMENTS**/
+//TABLETS: PORTRAIT
+$fix-left-margin-MSP:            155px;
+$fix-left-margin-pc-MSP:         66%;
+$content-padding-right-MSP:      236px;
+$content-padding-right-pc_MSP:   15.691489361702%;
+$content-pane-width-MSP:         1269px;
+$general-content-width-pc-MSP:   84.308510638298%;
+$content-effective-width-MSP:    1033px;
+$content-effective-width-pc-MSP: 68.683510638298%;
+$general-content-width-MSP:      1269px;
+$content-start-top-MSP:          435px;
+$content-margin-left-MSP:        45px;
+$content-margin-left-pc-MSP:     2.992021276596%;
+$contact-top-margin-MSP:         20px;
+$global-wrapper-width-MSP:       1504px;
+
+
+
+/**MEASUREMENTS**/
+//SMART PHONES (MOBILES)
+$fix-left-margin-MOB:            155px;
+$fix-left-margin-pc-MOB:         66%;
+$content-padding-right-MOB:      236px;
+$content-padding-right-pc_MOB:   15.691489361702%;
+$content-pane-width-MOB:         1269px;
+$general-content-width-pc-MOB:   84.308510638298%;
+$content-effective-width-MOB:    1033px;
+$content-effective-width-pc-MOB: 68.683510638298%;
+$general-content-width-MOB:      1269px;
+$content-start-top-MOB:          435px;
+$content-margin-left-MOB:        45px;
+$content-margin-left-pc-MOB:     2.992021276596%;
+$contact-top-margin-MOB:         20px;
+$global-wrapper-width-MOB:       1504px;
+
+
+
+
+//FONT-SIZES
+$font-size-general:              17px;
+$line-height-general:            20px;
+
+$font-size-17px-pc:              100%;
+$line-height-20px-pc:            100%;
+
+$font-size-50px-pc:              294.11764705882353%;
+$line-height-55px-pc:            275%;
+
+$font-size-42px-pc:              247.05882352941176%;
+$line-height-46px-pc:            230%;
+
+$font-size-14px-pc:              82.35294117647059%;
+$line-height-16px-pc:            80%;
+
+$font-size-35px-pc:              205.88235294117647%;
+$line-height-40px-pc:            200%;
+
+$font-size-40px-pc:              235.29411764705882%;
+$line-height-45px-pc:            225%;
+
+$font-size-27px-pc:              158.82352941176471%;
+$line-height-32px-pc:            160%;
+
+
+$screen-width-medium:         	1028px;  //990px;
+$content-width-default:       	1028px;  //990px;
+
+$screen-width-small:          	480px;
+$screen-width-default:        	1028px;
+$half_screen_width:           	480px;
+$half_screen_width:           	514px;
+
+
+
+
+
+
+/**COLORS**/
+
+$font-family-default:         	"Helvetica Neue",Helvetica,Arial,sans-serif;  //"Open Sans Condensed", sans-serif;
+$font-family-alternative:     	"trebuchet ms", verdana, tahoma, sans-serif;
+$font-family-mri:				"GravurThin", "GravurCondensed", Arial, Helvetica, sans-serif;
+$font-family-sans-serif:  		Arial, sans-serif,"Helvetica Neue", Helvetica !default;
+$font-family-serif:       		Georgia, "Times New Roman", Times, serif !default;
+
+$font-size-default:           	15px;
+$font-size-navigation:        	22px;
+$font-size-sub-link:          	18px;
+
+$header-bg-green:             	#9BC23B;
+$footer-bg-green:             	#58740d;
+
+
+$color-default:               #202020;
+$color-alternative:           #497dca;
+$color-background:            #101010;
+$color-link:                  $color-alternative;
+$bg-color:                    rgb(255, 240, 223);
+$nav-link-color:              #b75f00;     // rgb(0, 122, 144);
+$nav-hover-color:             rgb(224, 228, 180);
+
+//COLORS
+/*BUTTON BACKGROUNDS*/
+$button_bg_blue:        #0b4395;
+$button_bg_green:       #95c11f;
+$button_bg_red:         #e30613;
+
+/*LINKS COLORS*/
+$link_green:            #95c11f;
+$link_blue:             #0b4395;
+$link_red:              #e30613;
+$blue_link:             #497dca;
+$gray_link:             #666666;
+
+/*NEUTRAL COLORS*/
+$white_1:               rgba(255, 255, 255, 1);
+$services_blue:         #0b4395;
+$sub_links_black:       #1c1c1c;
+$gray_border_color:     #4b4b4b;
+$gray_666:              #666666;
+
+$default-color:         #FFFFFF;
+$major_sect_color:      #497dca;
+$border_color_main:     #ffa03a;    //rgb(169, 196, 56);
+$heading_tag_color:     rgb(231, 130, 21);
+$nav_menu_width:        123px;
+$tf-site-width-default: $screen-width-default;
+$base_header_height:    330px;
+$header_bg:             "../img/header_ok.jpg";
+$header_bg_mobile:      "../img/mobile_bg.png";
+$nav_button_mobile:     "../img/nav_arrow.png";
+
+$header_position:       50% 50%;
+$header_repeat:         no-repeat;
+$default_margin:        30px;
+$secondary_margin:      20px;
+
+$open_sans_normal:      'Open Sans', sans-serif;
+$trebuchet:             "trebuchet ms", verdana, tahoma, sans-serif;
+$open_sans_condensed:   "Open Sans Condensed", sans-serif;
+$font_fam_1:            $open_sans_condensed;
+$font_fam_2:            $open_sans_condensed;
+
+
+$nav_hover_color:       rgba(11, 67, 149, 1);
+$link_bar_blue:         rgba(0, 15, 135, 0.80);
+$link_bar_red:          rgba(186, 0, 16, 0.80);
+$link_bar_green:        rgba(0, 149, 9, 0.80);
+
+//FONT-SIZES...
+$heading_font_size:     28px;
+$main_header_font_size: 40px;
+$main_nav_font_size:    22px;
+$specs_font_size:       15px;
+$twenty_five_px:        25px;
+$stripty_font_size:     19px;
+$footer_font_size_1:    16px;
+$footer_font_size_2:    17px;
+$footer_font_size_3:    18px;
+$dienst_head_font_size: 32px;
+
+$fourteen_px:           14px;
+$fifteen_px:            15px;
+$sixteen_px:            16px;
+$seventeen_px:          17px;
+$eighteen_px:           18px;
+$nineteen_px:           19px;
+$twenty_px:             20px;
+
+$default-screen-width:  1050;
+$tablet-screen-width:   637;
+$small-screen-width:    320;
+$default-screen-width-2:1400;
+$tablet-screen-width-2: 750;
+$small-screen-width-2:  480;
+
+$ipad-width-1:          768;
+$ipad-width-2:          946;
+$ipad-width-3:          980;
+$mobile-width-1:        320;
+$mobile-width-2:        480;
+
+$default-margin-nr:     20;
+

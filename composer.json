@@ -1,0 +1,27 @@
+{
+    "name"          : "poiz/complot-code-pool",
+    "description"   : "An Utility Interface Plugin with Classes that Simplify WordPress Plugin, Widget & Theme Development",
+    "type"          : "project",
+    "authors"       : [
+        {
+            "name"  : "Poiz Campbell",
+            "email" : "poiz@poiz.me"
+        }
+    ],
+
+    "require": {
+        "php"                   : "^5.6 || ^7.0",
+        "symfony/var-dumper"    : "^3.1"
+    },
+
+    "require-dev"               : {
+    },
+
+    "autoload"                  : {
+        "psr-4"                 : {
+        },
+
+        "psr-0"                 : {
+        }
+    }
+}

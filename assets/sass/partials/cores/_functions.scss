@@ -1,0 +1,51 @@
+///************************************************/
+///******************FUNCTIONS*********************/
+///************************************************/
+
+//GET THE EXACT WIDTH OF ANY CONTAINER IN PERCENTAGE
+@function get_slices($container_width:1140, $col_num:4, $margin:30, $percent:1){
+  $splice:                    $col_num - 1;
+  $effective_margins_width:   ($splice * $margin);
+  $slices:                    (( ( $container_width - $effective_margins_width ) / ($col_num * $container_width) ) * 100);
+  @if($percent == 1){
+    @return $slices#{"%"};
+  }@else{
+    @return $slices;
+  }
+}
+
+@function get_slices_percent_wise($container_width:100, $col_num:4, $margin:2, $percent:1){
+  $splice:                    $col_num - 1;
+  $effective_margins_width:   ($splice * $margin);
+  $slices:                    ( ( $container_width - $effective_margins_width ) / $col_num ) ;
+  @if($percent == 1){
+    @return $slices#{"%"};
+  }@else{
+    @return $slices;
+  }
+}
+
+//GET THE ASSOCIATED MARGIN FOR ANY CONTAINER
+@function get_slice_margin($container_width:1140, $col_num:4, $margin:30, $percent:1){
+  $splice:                    $col_num - 1;
+  $slices:                    get_slices($container_width, $col_num, $margin, 0);
+  $slice_margin:              (100 - ($col_num*$slices) )/$splice;
+  @if($percent == 1){
+    @return $slice_margin#{"%"};
+  }@else{
+    @return $slice_margin;
+  }
+}
+
+
+$bootstrap-sass-asset-helper: true;
+
+@function twbs-font-path($path) {
+  @return font-url($path, true);
+}
+
+@function twbs-image-path($path) {
+  @return image-url($path, true);
+}
+
+

@@ -1,0 +1,130 @@
+
+///*FOOTER AREA STYLING*/
+.footer {
+  width: 100%;
+  background: rgb(255, 228, 199); //url('./../img/png/body_bg_02.png') 50% 50% repeat;
+  border-top: solid $border-color-main 1px;
+  padding: 25px 0;
+  @extend %fix_float;
+  .footer-container {
+    color:rgba(black, 0.95);
+    padding:0;
+    @extend %wrap;
+    .footer-slice{
+      width:get_slices($screen-width-default, 4, 30);
+      padding-bottom: 30px;
+      float:left;
+      padding-top:20px;
+      margin-right:get_slice_margin($screen-width-default, 4, 30);
+
+      .footer-sub-menu{
+        list-style:none;
+        li{
+          a{
+            display:block;
+           // background:transparent;
+            padding:8px 5px;
+            padding-left: 15px;
+            border-bottom: solid rgba(white, 0.25) 1px;
+            //margin-bottom:6px;
+            background:rgba(black, 0.25);
+            &:hover{
+              background:rgba(black, 0.40);
+            border-bottom: dotted rgba(black, 0.5) 1px;
+
+            }
+          }
+        }
+      }
+
+      .footer-pay-pix{
+        .pay-pix-box{
+          margin-bottom:10px;
+          .pay-logo{
+            max-width: 100%;
+            @include respond-to(medium-screens){
+              width: 100%;
+            }
+            border-radius: 5px;
+            border: solid rgba(black, 0.25) 2px;
+          }
+        }
+      }
+
+      @include respond-to(medium-screens){
+        width:100%;
+        float:none;
+        margin:0;
+        padding: 20px 1em;
+        border-bottom:dotted $gray_link 2px;
+      }
+
+      @include respond-to(small-screens){
+        width:100%;
+        float:none;
+        margin:0;
+        padding: 20px 1em;
+        border-bottom:dotted $gray_link 2px;
+      }
+
+      &:last-child{
+        margin-right:0;
+      }
+
+      .footer-head{
+        text-align: left;
+        font-size:$font-size-navigation;
+        font-weight: 100;
+        margin-bottom:20px;
+
+        @include respond-to(small-screens){
+          font-size:$dienst_head_font_size;
+        }
+
+      }
+
+      .footer-content{
+        font-family: $font-family-alternative;
+        font-size:$font-size-default;
+        line-height:1.4;
+        span{
+          font-size:$font-size-default;
+          color:$blue-link;
+        }
+        .contact{
+          display:inline-block;
+          min-width: 35%;
+        }
+        .footer-link,
+        .dienst-link{
+          color:$gray_link;
+          text-decoration:underline;
+        }
+        .social-media-link{
+          img{
+            display:block;
+            max-width:100%;
+            float:left;
+            margin-right:20px;
+            margin-top:20px;
+          }
+        }
+
+        @include respond-to(small-screens){
+          font-size:$footer_font_size_1;
+          &>a{
+            font-size: $footer_font_size_3;
+          }
+          .social-media-link{
+            img{
+              display:block;
+              margin-top: 40px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
