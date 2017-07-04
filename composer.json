@@ -19,6 +19,7 @@
 
     "autoload"                  : {
         "psr-4"                 : {
+            "Code\\"            : "Code/"
         },
 
         "psr-0"                 : {
